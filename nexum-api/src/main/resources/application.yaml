@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/nexum
     username: postgres
-    password: postgres
+    password: Tr9a-3ml4#
   jpa:
     hibernate:
       ddl-auto: validate
@@ -17,3 +17,8 @@ logging:
   level:
     org.hibernate.SQL: DEBUG
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+jwt:
+  public:
+    key: classpath:authz.pub
+  private:
+    key: classpath:authz.pem

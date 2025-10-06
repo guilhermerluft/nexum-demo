@@ -6,7 +6,7 @@ O código-fonte, design, interface e demais componentes deste projeto são desti
 
 É expressamente proibido:
 - Copiar, reproduzir ou distribuir, total ou parcialmente, o conteúdo deste projeto;
-- Modificar, reutilizar ou integrar o código em outros sistemas sem autorização formal por escrito da equipe Nexum;
+- Modificar, reutilizar ou integrar o código em outros sistemas sem autorização formal por escrito de Guilherme Luft;
 - Utilizar este software para fins comerciais ou educacionais sem consentimento prévio.
 
 Este projeto é fornecido “como está”, sem garantias de qualquer tipo, expressas ou implícitas, incluindo, mas não se limitando a, garantias de comercialização ou adequação a um propósito específico.

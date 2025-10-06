@@ -22,9 +22,10 @@ public class Matricula extends Auditoria{
     private Usuario usuario;
 
     @ManyToOne
-    @JoinColumn(name="permissao_id")
-    private Permissao permissao;
+    @JoinColumn(name="curso_id")
+    private Curso curso;
 
+    @Enumerated(EnumType.STRING)
     private StatusMatricula status;
 
     @JoinColumn(name= "data_matricula")

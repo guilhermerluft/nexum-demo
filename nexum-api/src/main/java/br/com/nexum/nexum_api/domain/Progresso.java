@@ -27,6 +27,6 @@ public class Progresso extends Auditoria {
 
     private boolean completado;
 
-    @JoinColumn(name= "completo_em")
-    private LocalDateTime completoEm;
+    @JoinColumn(name= "completado_em")
+    private LocalDateTime completadoEm;
 }

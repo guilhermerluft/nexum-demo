@@ -131,9 +131,9 @@ CREATE TABLE aula (
 -- TABELA: matricula
 -- ==========================
 CREATE TABLE matricula (
+  id SERIAL PRIMARY KEY,
   usuario_id INTEGER NOT NULL REFERENCES usuario(id) ON DELETE CASCADE,
   curso_id INTEGER NOT NULL REFERENCES curso(id) ON DELETE CASCADE,
-  PRIMARY KEY (usuario_id, curso_id),
   status VARCHAR(20) NOT NULL DEFAULT 'ativo' CHECK (status IN ('ativo', 'concluido', 'cancelado')),
   data_matricula TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   data_conclusao TIMESTAMP NULL,
@@ -142,7 +142,9 @@ CREATE TABLE matricula (
   criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   criado_por INTEGER REFERENCES usuario(id) ON DELETE SET NULL,
   atualizado_em TIMESTAMP NULL,
-  atualizado_por INTEGER REFERENCES usuario(id) ON DELETE SET NULL
+  atualizado_por INTEGER REFERENCES usuario(id) ON DELETE SET NULL,
+  UNIQUE (usuario_id, curso_id)
+                       
 );
 
 -- ==========================

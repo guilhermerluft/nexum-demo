@@ -42,5 +42,3 @@ Quer testar o Nexum por conta própria? É simples 👇
 ```bash
 # Em breve mais informações.
 
-# Rode o servidor de desenvolvimento
-npm run dev

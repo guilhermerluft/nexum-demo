@@ -11,7 +11,7 @@ Este projeto foi criado com o objetivo de explorar ideias de design, experiênci
 
 O **Nexum** é uma simulação de plataforma de ensino moderna, onde usuários poderão visualizar cursos, acessar conteúdos e interagir com uma interface simples e intuitiva.  
 
-A ideia é servir como **protótipo funcional** e base para futuras implementações completas, como login, acompanhamento de progress0o e integração com banco de dados.
+A ideia é servir como **protótipo funcional** e base para futuras implementações completas, como login, acompanhamento de progresso e integração com banco de dados.
 
 ---
 

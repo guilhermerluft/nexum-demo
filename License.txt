@@ -1,0 +1,15 @@
+Copyright (c) 2025 Guilherme Luft 
+Todos os direitos reservados.
+
+Este software é propriedade de Guilherme Luft.  
+O código-fonte, design, interface e demais componentes deste projeto são destinados exclusivamente a fins demonstrativos e de desenvolvimento interno.
+
+É expressamente proibido:
+- Copiar, reproduzir ou distribuir, total ou parcialmente, o conteúdo deste projeto;
+- Modificar, reutilizar ou integrar o código em outros sistemas sem autorização formal por escrito da equipe Nexum;
+- Utilizar este software para fins comerciais ou educacionais sem consentimento prévio.
+
+Este projeto é fornecido “como está”, sem garantias de qualquer tipo, expressas ou implícitas, incluindo, mas não se limitando a, garantias de comercialização ou adequação a um propósito específico.
+
+Qualquer uso não autorizado deste software poderá resultar em responsabilização civil e penal conforme a legislação vigente.
+
